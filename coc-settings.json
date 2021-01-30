@@ -1,0 +1,37 @@
+{
+  // autoformat
+  "coc.preferences.formatOnSaveFiletypes": [
+    "markdown",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+  ],
+  "coc.preferences.hoverTarget" : "float",
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.emptyRules" : "ignore",
+  "css.lint.importStatement": "warning",
+  "css.lint.boxModel": "warning",
+  "css.lint.zeroUnits": "warning",
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.emptyRules": "ignore",
+  "scss.lint.importStatement": "warning",
+  "css.validate": false,
+  "scss.validate": false,
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
+  // Emmet 
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  //Explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.file.showHiddenFiles": true,
+  "explorer.icon.enableVimDevicons": false,
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expand", "open" ],
+    "v": "open:vsplit:"
+  }
+}
